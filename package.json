@@ -18,7 +18,8 @@
   },
   "scripts": {
     "webpack:build": "./node_modules/webpack/bin/webpack.js",
-    "webpack:watch": "webpack-dev-server"
+    "webpack:watch": "webpack-dev-server",
+    "test": "echo forego"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.5",
