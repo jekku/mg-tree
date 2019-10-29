@@ -23,7 +23,8 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin([
-      {from: './src/index.html', to: './index.html'}
+      {from: './src/index.html', to: './index.html'},
+      {from: './src/icons/', to: './icons'}
     ]),
   ],
   devServer: {

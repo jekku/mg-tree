@@ -1,4 +1,34 @@
+const react = [
+  {
+    id: 'state',
+    title: 'State Management',
+    tooltip: {
+      content: 'Effective use of hooks and proper state shape. Knowledge of when and when not to use state'
+    },
+    children: [],
+    icon: './icons/react-original.svg'
+  },
+  {
+    id: 'components',
+    title: 'Component Organization',
+    tooltip: {
+      content: 'Effective organization of components by business context. Knowledge of HOC, dependency injectible components, and testable components'
+    },
+    children: [],
+    icon: './icons/react-original.svg'
+  }
+]
+
 const es6 = [
+  {
+    id: 'reactjs',
+    title: 'React JS',
+    tooltip: {
+      content: 'Ability to build reusable components and make proper state management'
+    },
+    children: react,
+    icon: './icons/react-original.svg'
+  },
   {
     id: 'async-constructs',
     title: 'Async',
@@ -12,7 +42,8 @@ const es6 = [
         tooltip: {
           content: 'Writing promises safely'
         },
-        children: []
+        children: [],
+        icon: './icons/javascript-original.svg'
       },
       {
         id: 'generators',
@@ -20,7 +51,8 @@ const es6 = [
         tooltip: {
           content: 'Understanding star funs and yield'
         },
-        children: []
+        children: [],
+        icon: './icons/javascript-original.svg'
       },
       {
         id: 'async-await',
@@ -28,9 +60,11 @@ const es6 = [
         tooltip: {
           content: 'Reduction of mental gymnastics when necessary'
         },
-        children: []
+        children: [],
+        icon: './icons/javascript-original.svg'
       }
-    ]
+    ],
+    icon: './icons/javascript-original.svg'
   },
   {
     id: 'typescript',
@@ -38,7 +72,8 @@ const es6 = [
     tooltip: {
       content: 'JS Dialect reinforced with types. ES6 derivative.'
     },
-    children: []
+    children: [],
+    icon: './icons/typescript-original.svg'
   }
 ]
 
@@ -49,7 +84,8 @@ const constructs = [
     tooltip: {
       content: 'The ability to query and manipulate DOM elements'
     },
-    children: []
+    children: [],
+    icon: './icons/javascript-original.svg'
   },
   {
     id: 'events',
@@ -57,7 +93,8 @@ const constructs = [
     tooltip: {
       content: 'Understanding how JS events work and how to use them'
     },
-    children: []
+    children: [],
+    icon: './icons/javascript-original.svg'
   },
   {
     id: 'devtools',
@@ -65,6 +102,19 @@ const constructs = [
     tooltip: {
       content: 'The ability to leverage browser devtools for easier debugging and building'
     },
+    children: [],
+    icon: './icons/javascript-original.svg'
+  }
+]
+
+const node = [
+  {
+    id: 'webpack',
+    title: 'Webpack',
+    tooltip: {
+      content: 'Harness the ability to create fast asset and code pipelines with minimal configuration'
+    },
+    icon: './icons/webpack-original.svg',
     children: []
   }
 ]
@@ -76,7 +126,8 @@ const js = [
     tooltip: {
       content: 'Understanding of vanilla JS browser constructs',
     },
-    children: constructs
+    children: constructs,
+    icon: './icons/chrome-original.svg'
   },
   {
     id: 'es6',
@@ -84,8 +135,18 @@ const js = [
     tooltip: {
       content:  'The capability to write modern javascript with ease',
     },
-    children: es6
+    children: es6,
+    icon: './icons/javascript-original.svg'
   },
+  {
+    id: 'nodejs',
+    title: 'Node JS basics',
+    tooltip: {
+      content: 'A basic understanding of Node JS runtime built-ins and usage'
+    },
+    children: node,
+    icon: './icons/nodejs-original.svg'
+  }
 ]
 
 const data = [
@@ -95,7 +156,8 @@ const data = [
     tooltip: {
       content: 'Mashup Garage\'s core frontend logic and build toolchain',
     },
-    children: js
+    children: js,
+    icon: './icons/javascript-original.svg'
   }
 ]
 
