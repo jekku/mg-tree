@@ -1,0 +1,29 @@
+{
+  "name": "mg-tree",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/jekku/mg-tree",
+  "author": "Jekri Preclaro Orlina",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "webpack:build": "./node_modules/webpack/bin/webpack.js",
+    "webpack:watch": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "beautiful-skill-tree": "^0.11.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
