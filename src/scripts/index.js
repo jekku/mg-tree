@@ -1,17 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SkillTreeGroup, SkillTree, SkillProvider } from 'beautiful-skill-tree'
-import javascriptTree from './trees/javascript'
+import { MGTree } from './components/mg-tree'
 
-
-const Test = () => {
-  return <SkillProvider>
-    <SkillTreeGroup>
-    {() => {
-      return <SkillTree treeId="first-tree" title="Skill Tree" data={javascriptTree} />
-    }}
-    </SkillTreeGroup>
-  </SkillProvider>
-}
-
-ReactDOM.render(<Test />, document.getElementById('app'))
+ReactDOM.render(<MGTree />, document.getElementById('app'))

@@ -10,8 +10,10 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@testing-library/react": "^9.3.1",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.4",
+    "jest": "^24.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
@@ -19,7 +21,7 @@
   "scripts": {
     "webpack:build": "./node_modules/webpack/bin/webpack.js",
     "webpack:watch": "webpack-dev-server",
-    "test": "echo forego"
+    "test": "jest"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.5",
