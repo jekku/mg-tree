@@ -6,7 +6,7 @@ const react = [
       content: 'Effective use of hooks and proper state shape. Knowledge of when and when not to use state'
     },
     children: [],
-    icon: './icons/react-original.svg'
+    icon: './icons/redux-original.svg'
   },
   {
     id: 'components',
@@ -28,43 +28,6 @@ const es6 = [
     },
     children: react,
     icon: './icons/react-original.svg'
-  },
-  {
-    id: 'async-constructs',
-    title: 'Async',
-    tooltip: {
-      content: 'The power to write out-branching javascript in different ways'
-    },
-    children: [
-      {
-        id: 'promises',
-        title: 'Promises',
-        tooltip: {
-          content: 'Writing promises safely'
-        },
-        children: [],
-        icon: './icons/javascript-original.svg'
-      },
-      {
-        id: 'generators',
-        title: 'Generators',
-        tooltip: {
-          content: 'Understanding star funs and yield'
-        },
-        children: [],
-        icon: './icons/javascript-original.svg'
-      },
-      {
-        id: 'async-await',
-        title: 'Async-Await',
-        tooltip: {
-          content: 'Reduction of mental gymnastics when necessary'
-        },
-        children: [],
-        icon: './icons/javascript-original.svg'
-      }
-    ],
-    icon: './icons/javascript-original.svg'
   },
   {
     id: 'typescript',
@@ -119,7 +82,7 @@ const node = [
   }
 ]
 
-const js = [
+export const js = [
   {
     id: 'constructs',
     title: 'The Browser',
@@ -148,17 +111,3 @@ const js = [
     icon: './icons/nodejs-original.svg'
   }
 ]
-
-const data = [
-  {
-    id: 'javascript',
-    title: 'Javascript',
-    tooltip: {
-      content: 'Mashup Garage\'s core frontend logic and build toolchain',
-    },
-    children: js,
-    icon: './icons/javascript-original.svg'
-  }
-]
-
-export default data
