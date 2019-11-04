@@ -29,6 +29,15 @@ const core = [
     },
     children: elixir,
     icon: './icons/elixir-original.svg'
+  },
+  {
+    id: 'git',
+    title: 'Git',
+    tooltip: {
+      content: 'The most widely adapted source collaboration tool in the new century',
+    },
+    children: [],
+    icon: './icons/git-original.svg'
   }
 ]
 
