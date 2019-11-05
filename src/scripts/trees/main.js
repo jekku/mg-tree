@@ -7,7 +7,7 @@ const core = [
     id: 'ruby',
     title: 'Ruby',
     tooltip: {
-      content: 'Mashup Garage\'s choice of OOP language'
+      content: "Mashup Garage's choice of OOP language"
     },
     children: ruby,
     icon: './icons/ruby-original.svg'
@@ -16,7 +16,7 @@ const core = [
     id: 'javascript',
     title: 'Javascript',
     tooltip: {
-      content: 'Mashup Garage\'s core frontend logic and build toolchain',
+      content: "Mashup Garage's core frontend logic and build toolchain"
     },
     children: js,
     icon: './icons/javascript-original.svg'
@@ -25,7 +25,7 @@ const core = [
     id: 'elixir',
     title: 'Elixir',
     tooltip: {
-      content: 'Mashup Garage\'s choice of FP language',
+      content: "Mashup Garage's choice of FP language"
     },
     children: elixir,
     icon: './icons/elixir-original.svg'
@@ -34,7 +34,8 @@ const core = [
     id: 'git',
     title: 'Git',
     tooltip: {
-      content: 'The most widely adapted source collaboration tool in the new century',
+      content:
+        'The most widely adapted source collaboration tool in the new century'
     },
     children: [],
     icon: './icons/git-original.svg'
