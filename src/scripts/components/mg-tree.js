@@ -13,11 +13,15 @@ const theme = {
 }
 
 export const MGTree = () => {
-  return <SkillProvider>
-    <SkillTreeGroup theme={theme}>
-    {() => {
-      return <SkillTree treeId="first-tree" title="Skill Tree" data={tree} />
-    }}
-    </SkillTreeGroup>
-  </SkillProvider>
+  return (
+    <SkillProvider>
+      <SkillTreeGroup theme={theme}>
+        {() => {
+          return (
+            <SkillTree treeId='first-tree' title='Skill Tree' data={tree} />
+          )
+        }}
+      </SkillTreeGroup>
+    </SkillProvider>
+  )
 }
