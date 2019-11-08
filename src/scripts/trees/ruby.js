@@ -1,4 +1,4 @@
-export const ruby = [
+const rubySkills = [
   {
     id: 'rails',
     title: 'Rails',
@@ -10,3 +10,13 @@ export const ruby = [
     icon: './icons/rails-plain.svg'
   }
 ]
+
+export const ruby = {
+  id: 'ruby',
+  title: 'Ruby',
+  tooltip: {
+    content: "Mashup Garage's choice of OOP language"
+  },
+  children: rubySkills,
+  icon: './icons/ruby-original.svg'
+}

@@ -87,7 +87,7 @@ const node = [
   }
 ]
 
-export const js = [
+const javascriptSkills = [
   {
     id: 'constructs',
     title: 'The Browser',
@@ -116,3 +116,13 @@ export const js = [
     icon: './icons/nodejs-original.svg'
   }
 ]
+
+export const javascript = {
+  id: 'javascript',
+  title: 'Javascript',
+  tooltip: {
+    content: "Mashup Garage's core frontend logic and build toolchain"
+  },
+  children: javascriptSkills,
+  icon: './icons/javascript-original.svg'
+}

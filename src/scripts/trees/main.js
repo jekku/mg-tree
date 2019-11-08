@@ -1,45 +1,27 @@
-import { js } from './javascript'
+import { javascript } from './javascript'
 import { ruby } from './ruby'
 import { elixir } from './elixir'
+import { devops } from './devops'
+import { database } from './database'
 
-const core = [
+const roles = [
   {
-    id: 'ruby',
-    title: 'Ruby',
+    id: 'backend',
+    title: 'Backend Dev',
     tooltip: {
-      content: "Mashup Garage's choice of OOP language"
+      content: ''
     },
-    children: ruby,
-    icon: './icons/ruby-original.svg'
+    children: [ruby, elixir, database]
   },
   {
-    id: 'javascript',
-    title: 'Javascript',
+    id: 'frontend',
+    title: 'Frontend Dev',
     tooltip: {
-      content: "Mashup Garage's core frontend logic and build toolchain"
+      content: ''
     },
-    children: js,
-    icon: './icons/javascript-original.svg'
+    children: [javascript]
   },
-  {
-    id: 'elixir',
-    title: 'Elixir',
-    tooltip: {
-      content: "Mashup Garage's choice of FP language"
-    },
-    children: elixir,
-    icon: './icons/elixir-original.svg'
-  },
-  {
-    id: 'git',
-    title: 'Git',
-    tooltip: {
-      content:
-        'The most widely adapted source collaboration tool in the new century'
-    },
-    children: [],
-    icon: './icons/git-original.svg'
-  }
+  devops
 ]
 
 const data = [
@@ -49,7 +31,7 @@ const data = [
     tooltip: {
       content: 'Be employed at Mashup Garage'
     },
-    children: core,
+    children: roles,
     icon: './icons/mg.svg'
   }
 ]
