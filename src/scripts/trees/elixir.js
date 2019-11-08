@@ -1,4 +1,4 @@
-export const elixir = [
+export const elixirSkills = [
   {
     id: 'phoenix',
     title: 'Phoenix',
@@ -10,3 +10,13 @@ export const elixir = [
     icon: './icons/phoenix-original.png'
   }
 ]
+
+export const elixir = {
+  id: 'elixir',
+  title: 'Elixir',
+  tooltip: {
+    content: "Mashup Garage's choice of FP language"
+  },
+  children: elixirSkills,
+  icon: './icons/elixir-original.svg'
+}
